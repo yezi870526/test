@@ -18,7 +18,7 @@
 .headerCon .sideBarMenu{
     height: 84px;
 }
-.headerBg .sideBar .sideBarMenu li,.sideBarButton a{
+.headerBg .sideBar .sideBarMenu li{
     height:84px;
     line-height: 84px;
 }
@@ -26,17 +26,21 @@
     padding: 0 20px;
     float: left;
 }
-.sideBarButton a{
+/*.sideBarButton a{
     display: inline-block;
     text-align: center;
-}
+}*/
 .regBtn{
-    position:relative;
+    display: inline-block;
+    line-height: 31px;
+    position: relative;
     background: #2e4e9d;
-    width: 55px;
-    height: 38px;
-    margin-top: 20px;
-    color: #fff
+    width: 52px;
+    height: 30px;
+    color: #fff;
+    margin: 28px 16px;
+    padding-left: 16px;
+    border-radius: 5px;
 }
 /*内容样式*/
 .bodyMain{
