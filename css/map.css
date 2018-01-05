@@ -26,26 +26,35 @@
     padding: 0 20px;
     float: left;
 }
-/*.sideBarButton a{
+.sideBarButton{
+    padding-top: 30px;
+}
+.regBtn,.logBtn{
     display: inline-block;
-    text-align: center;
-}*/
-.regBtn{
-    display: inline-block;
-    line-height: 31px;
-    position: relative;
-    background: #2e4e9d;
-    width: 52px;
-    height: 30px;
-    color: #fff;
-    margin: 28px 16px;
-    padding-left: 16px;
     border-radius: 5px;
+    text-align: center;
+    line-height: 31px;
+    width: 53px;
+    height: 30px;
+    font-size: 14px;
+}
+.regBtn{
+    background: #2e4e9d;
+    color: #fff;
+}
+.logBtn{
+    background: #f9f9f9;
+    color: #323232;
+    border: 1px solid #ccc;
+    margin-left: 6px;
 }
 /*内容样式*/
 .bodyMain{
     height: 800px;
     background: #f6f8fb;
+}
+.mapCon h2{
+    padding: 50px 30px;
 }
 /*页脚样式*/
 .footerBg{
