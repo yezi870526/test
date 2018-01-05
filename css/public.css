@@ -18,6 +18,7 @@ time, mark, audio, video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    font-family: "微软雅黑";
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -41,6 +42,10 @@ q:before, q:after {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+}
+a{
+    text-decoration: none;
+    color: #4d4d4d;
 }
 /*公共样式*/
 .w1200{
@@ -66,4 +71,7 @@ table {
 }
 .centerDiv{
     margin: 0 auto;
+}
+div{
+    display: block;
 }

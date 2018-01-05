@@ -4,9 +4,39 @@
     background: #fff;
     border-bottom:1px solid #e3e5e6;
 }
-/*头部内容样式*/
-.headerCon{
+.logoImg{
     height: 84px;
+    width: 112px;
+}
+.headerLogo{
+    /*width: 554px;*/
+}
+.sideBar{
+    width: 647px;
+}
+/*头部内容样式*/
+.headerCon .sideBarMenu{
+    height: 84px;
+}
+.headerBg .sideBar .sideBarMenu li,.sideBarButton a{
+    height:84px;
+    line-height: 84px;
+}
+.headerBg .sideBar .sideBarMenu li{
+    padding: 0 20px;
+    float: left;
+}
+.sideBarButton a{
+    display: inline-block;
+    text-align: center;
+}
+.regBtn{
+    position:relative;
+    background: #2e4e9d;
+    width: 55px;
+    height: 38px;
+    margin-top: 20px;
+    color: #fff
 }
 /*内容样式*/
 .bodyMain{
